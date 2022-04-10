@@ -83,5 +83,7 @@ public class Main {
         } catch (ValidatorException badFileException) {
             printExceptionInfo(badFileException);
         }
+
+        scanner.close();
     }
 }
